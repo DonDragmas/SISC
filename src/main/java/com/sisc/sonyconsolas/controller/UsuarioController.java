@@ -81,7 +81,6 @@ public class UsuarioController {
         if(idUsuario>0){
             usuarioAl.delete(idUsuario);
         }
-
         return "redirect:/usuario/listarU";
     }
    
